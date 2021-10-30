@@ -15,9 +15,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
   </head>
-  <body>
+  <body class="flex flex-col min-h-screen max-w-full">
     <header
-      class="flex items-center justify-between mx-auto max-w-6xl py-2 p-4"
+      class="flex w-full items-center justify-between mx-auto max-w-6xl py-2 p-4"
     >
       <div class="flex items-center space-x-2">
         <img class="w-20" src="./media/logo.png" alt="logotip" />
@@ -51,18 +51,18 @@
           mt-5
           grid
           gap-10
-          lg:gap-20
-          md:gap-36
+          lg:gap-10
+          md:gap-10
           grid-cols-1
           md:grid-cols-2
           p-4
         "
       >
-        <div class="max-w-lg space-y-6 flex flex-col text-justify md:text-left">
-          <h1 class="text-4xl text-green-500 font-semibold">
+        <div class="max-w-full space-y-6 flex flex-col text-justify md:text-left">
+          <h1 class="text-4xl text-center md:text-left text-green-500 font-semibold">
             Bizda koffelar olami
           </h1>
-          <p class="text-xl text-justify md:text-left max-w-xl">
+          <p class="text-xl text-justify max-w-full">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
             molestias voluptate, quia provident, atque Lorem ipsum dolor sit
             amet consectetur adipisicing elit. Iste, excepturi. Lorem ipsu
@@ -154,52 +154,45 @@
         </form>
       </section>
       <div class="relative">
-        <h2 class="text-3xl absolute top-0 text-white w-72 left-28 top-24">
+        <h2 class="text-3xl absolute text-white w-1/2 left-10 top-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
           quasi?
         </h2>
         <img
           src="./media/beansBg.jpg"
           alt=""
-          class="max-h-96 w-full h-96 object-cover"
+          class="w-full md:h-96 object-cover"
         />
       </div>
     </div>
     <footer class="mt-20 bg-gray-700 pt-6">
       <div
-        class="
-          max-w-4xl
-          mx-auto
-          flex-col flex
-          md:flex-row
-          justify-between
-          items-center
-        "
-      >
+        class="max-w-4xl
+        mx-auto
+        flex-col flex
+        md:flex-row
+        justify-between
+        items-center">
         <img src="./media/logo.png" class="w-56" alt="" />
 
         <div
-          class="flex flex-col space-x-0 items-center md:flex-row md:space-x-20"
-        >
+          class="flex flex-col space-x-0 items-center md:flex-row
+          md:space-x-20">
           <ul
-            class="
-              flex flex-col
-              shadow
-              bg-gray-600
-              px-4
-              w-full
-              max-w-sm
-              py-2
-              rounded
-              w-64
-              md:w-48
-              text-blue-200
-            "
-          >
+            class="flex flex-col
+            shadow
+            bg-gray-600
+            px-4
+            w-full
+            max-w-sm
+            py-2
+            rounded
+            w-80
+            md:w-48
+            text-blue-200">
             <li>
-              <a href="#" class="text-yellow-300 text-xl font-semibold"
-                >Sayt Xaritasi:</a
-              >
+              <a href="#" class="text-yellow-300 text-xl font-semibold">Sayt
+                Xaritasi:</a>
             </li>
             <li>
               <a href="#" class="hover:text-green-500">Galareya</a>
@@ -228,23 +221,19 @@
           </ul>
 
           <ul
-            class="
-              flex flex-col
-              ml-12
-              bg-gray-600
-              px-4
-              py-2
-              rounded
-              text-blue-200
-              md:ml-0
-              shadow
-              w-64
-              md:w-48
-            "
-          >
+            class="flex flex-col
+            bg-gray-600
+            px-4
+            py-2
+            rounded
+            text-blue-200
+            md:ml-0
+            shadow
+            w-80
+            md:w-48">
             <li>
-              <a href="#" class="text-yellow-300 text-xl font-semibold"
-                >Aloqa xizmati
+              <a href="#" class="text-yellow-300 text-xl font-semibold">Aloqa
+                xizmati
               </a>
             </li>
             <li>
@@ -272,44 +261,43 @@
         </div>
       </div>
       <div
-        class="
-          w-full
-          flex flex-col
-          items-center
-          bg-gray-800
-          justify-center
-          space-y-2
-          mt-4
-          py-4
-        "
-      >
+        class="w-full
+        flex flex-col
+        items-center
+        bg-gray-800
+        justify-center
+        space-y-2
+        mt-4
+        py-4">
         <hr class="w-full max-w-4xl border-gray-500" />
-        <p class="font-semibold text-xl text-white pt-2 mx-4 text-center">
+        <p class="font-semibold text-xl text-white pt-2 mx-4
+          text-center">
           Bizni
-          <span class="text-green-500">ijtimoiy tarmoqlarda</span> kuzatib
+          <span class="text-green-500">ijtimoiy tarmoqlarda</span>
+          kuzatib
           boring !
         </p>
         <div class="flex space-x-4">
           <img
             class="w-8"
             src="https://img.icons8.com/fluency/50/000000/instagram-new.png"
-          />
+            />
           <img
             class="w-8"
             src="https://img.icons8.com/color/50/000000/telegram-app.png"
-          />
+            />
           <img
             class="w-8"
             src="https://img.icons8.com/color/48/000000/whatsapp.png"
-          />
+            />
           <img
             class="w-8"
             src="https://img.icons8.com/color/48/000000/twitter.png"
-          />
+            />
           <img
             class="w-8"
             src="https://img.icons8.com/fluency/48/000000/facebook-new.png"
-          />
+            />
         </div>
       </div>
     </footer>
